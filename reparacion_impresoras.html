@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Curso de Reparación de Impresoras</title>
+</head>
+
+<body style="background-color: black;">
+    <div style="text-align: center;">
+        <img src="src/logocompumaib.png" alt="" style="width: 5%; margin-top: 1%;">
+    </div>
+
+    <!-- Contenido de la página -->
+    <div class="container mt-8">
+        <img src="src/promo.webp" alt="">
+        <video controls id="video">
+            <source src="src/Compumaib.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+        <br><br>
+        <h2 id="cont_v">RECIBE HOY EL 50% EN TU COMPRA...</h2>
+        <h2 id="cont_v">¡FLASH SALE HASTA MEDIANOCHE EN TODOS NUESTROS CURSOS!</h2>
+        <h2 id="cont_v2">Apresúrate, las ofertas expiran en…</h2>
+
+        <!-- RELOJ CONTADOR -->
+        <div class="row"
+            style="background-color: #cf2e2e; color: white; font-family: 'Times New Roman', Times, serif; text-align: center; font-size: 18pt;">
+            <div class="col-md-3">
+                <div id="days" class="display-box">0</div>
+                <div>Días</div>
+            </div>
+            <div class="col-md-3">
+                <div id="hours" class="display-box">0</div>
+                <div>Horas</div>
+            </div>
+            <div class="col-md-3">
+                <div id="minutes" class="display-box">0</div>
+                <div>Minutos</div>
+            </div>
+            <div class="col-md-3">
+                <div id="seconds" class="display-box">0</div>
+                <div>Segundos</div>
+            </div>
+        </div>
+
+        <div class="container" style="margin-top: 5%;">
+            <span id="s_tienda">Tenemos lo mejor para ti </span>
+            <h2 id="h_tienda"> CONOCE LOS BENEFICIOS DE TOMAR NUESTROS CURSOS </h2>
+        </div>
+
+        <!-- CATALOGO -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card mb-3" id="card">
+                        <div class="card-body">
+                            <img src="src/cupones.png" alt="">
+                            <h5 class="card-title">Cupones activados</h5>
+                            <p class="card-text">50% OFF en cursos HOY.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card mb-3" id="card">
+                        <div class="card-body">
+                            <img src="src/entrega.png" alt="">
+                            <h5 class="card-title"> Entrega inmediata </h5>
+                            <p class="card-text">Por correo electrónico.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card mb-3" id="card">
+                        <div class="card-body">
+                            <img src="src/precio.png" alt="">
+                            <h5 class="card-title"> Mejores precios</h5>
+                            <p class="card-text">Cuidamos tu bolsillo.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card mb-3" id="card">
+                        <div class="card-body">
+                            <img src="src/seguro.png" alt="">
+                            <h5 class="card-title">Pagos seguros</h5>
+                            <p class="card-text">Entorno 100% protegido.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card mb-3" id="card">
+                        <div class="card-body">
+                            <img src="src/aprobado.png" alt="">
+                            <h5 class="card-title"> Contenido aprobado </h5>
+                            <p class="card-text">100% revisado y aprobado.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card mb-3" id="card">
+                        <div class="card-body">
+                            <img src="src/precio.png" alt="">
+                            <h5 class="card-title"> Medios de pago por país </h5>
+                            <p class="card-text">Efectivo, Tarjetas, PayPal</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-3">
+                    <div class="card mb-3" id="card">
+                        <div class="card-body">
+                            <img src="src/cursos.png" alt="">
+                            <h5 class="card-title">25+ Cursos Online </h5>
+                            <p class="card-text">y contando ...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card mb-3" id="card">
+                        <div class="card-body">
+                            <img src="src/acceso.png" alt="">
+                            <h5 class="card-title"> Lifetime </h5>
+                            <p class="card-text">Acceso de por vida</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card mb-3" id="card">
+                        <div class="card-body">
+                            <img src="src/comunidad.png" alt="">
+                            <h5 class="card-title"> Comunidad </h5>
+                            <p class="card-text">Acceso a comunidades privadas</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card mb-3" id="card">
+                        <div class="card-body">
+                            <img src="src/consulta.png" alt="">
+                            <h5 class="card-title"> Consultas directas </h5>
+                            <p class="card-text">Pregunta a tu instructor</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card mb-3" id="card">
+                        <div class="card-body">
+                            <img src="src/certificado.png" alt="">
+                            <h5 class="card-title">Certificados</h5>
+                            <p class="card-text">En todos nuestros cursos</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card mb-3" id="card">
+                        <div class="card-body">
+                            <img src="src/garantia.png" alt="">
+                            <h5 class="card-title"> Garantía </h5>
+                            <p class="card-text">7 días, sin preguntas</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <hr style="background-color: #fff;">
+
+        <div class="container" style="margin-top: 2%;">
+            <h2 id="title">¡DOMINA EL ARTE DE LA REPARACION DE IMPRESORAS: TU VIAJE HACIA LA MAESTRÍA ONLINE COMIENZA
+                AHORA!</h2>
+
+            <div class="card" id="card_c">
+                <div class="row no-gutters">
+                    <div class="col-md-7">
+                        <img src="src/reparacion.png" style="max-width: 100%; height: 100%;"
+                            alt="...">
+                    </div>
+                    <div class="col-md-5">
+                        <div class="card-body">
+                            <h5 class="card-title" id="title"> CURSO DE REPARACIÓN DE IMPRESORAS </h5>
+                            <li id="li_v">
+                                En nuestro curso de Reparación de Impresoras, aprenderás las habilidades fundamentales para diagnosticar y solucionar problemas en impresoras de manera eficiente.
+                            </li>
+                            <li id="li_v">
+                                El Curso de Reparación de Impresoras está diseñado para proporcionar a los participantes las habilidades prácticas y teóricas necesarias para diagnosticar, mantener y reparar una variedad de impresoras.
+                            </li>
+                            <p class="card-text" id="c_p"><b>¡DATE PRISA! LAS INSCRIPCIONES CON EL 50% DE DESCUENTO SE
+                                    ACABAN CUANDO ESTE RELOJ LLEGUE A CERO!</b></p>
+                            <!-- RELOJ -->
+                            <div class="row"
+                                style="background-color: #cf2e2e; color: white; font-family: 'Times New Roman', Times, serif; text-align: center; font-size: 18pt;">
+                                <div class="col-md-3">
+                                    <div id="days_2" class="display-box">0</div>
+                                    <div style="font-size: 15pt;">Días</div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div id="hours_2" class="display-box">0</div>
+                                    <div style="font-size: 15pt;">Horas</div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div id="minutes_2" class="display-box">0</div>
+                                    <div style="font-size: 15pt;">Minutos</div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div id="seconds_2" class="display-box">0</div>
+                                    <div style="font-size: 15pt;">Segundos</div>
+                                </div>
+                            </div>
+                        </div>
+                        <p id="precio_1">PRECIO NORMAL 120 USD</p>
+                        <p id="precio_2">SOLO HOY 80 USD</p>
+                        <div class="contenedor-imagen"><a
+                                href="https://compumaib.org/AulaVirtual/courses/curso-de-reparacion-de-impresoras/"><img
+                                    class="imagen" src="src/COMPRA.webp"></a></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <p id="p_c">ATENCIÓN: El precio en oferta puede subir en cualquier momento y sin previo aviso. </p>
+            <p id="p_c2">Medios de pago habilitados en todos los países: PayPal y tarjetas débito/crédito.</p>
+        </div>
+
+        <div>
+            <div class="container" style="margin-top: 2%;">
+                <span id="s_tienda"> TODOS LOS MEDIOS DE PAGO ESTÁN HABILITADOS</span>
+                <h2 id="h_tienda"> ¡Tarjetas débito y crédito, efectivo, PayPal y mucho más! </h2>
+            </div>
+            <img src="src/pagos.png" style="width: 40%;" alt="">
+        </div>
+
+        <div style="margin-top: 4%;">
+            <h4 id="p_c">¿TIENES PREGUNTAS?...CONTACTANOS:</h4>
+            <div class="contenedor-imagen"><a href="https://wa.link/jhaou6"><img class="imagen" src="src/whatsap.png"
+                        id="img_w"></a></div>
+        </div>
+
+    </div>
+    <hr style="background-color: #fff;">
+    <!-- Footer -->
+    <footer class="text-light text-center p-3 mt-1" id="footer">
+        <p>&copy; 2024 Tu Landing Page. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+       <!-- Scripts Propios -->
+       <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const countdownDate = new Date('2024-01-19T23:59:59').getTime();
+
+            const countdownInterval = setInterval(function () {
+                const currentDate = new Date().getTime();
+                const timeDifference = countdownDate - currentDate;
+
+                if (timeDifference >= 0) {
+                    const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+                    const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+                    const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+
+                    document.getElementById('days').textContent = days;
+                    document.getElementById('hours').textContent = hours;
+                    document.getElementById('minutes').textContent = minutes;
+                    document.getElementById('seconds').textContent = seconds;
+                } else {
+                    clearInterval(countdownInterval);
+                    document.getElementById('days').textContent = '0';
+                    document.getElementById('hours').textContent = '0';
+                    document.getElementById('minutes').textContent = '0';
+                    document.getElementById('seconds').textContent = '0';
+                }
+            }, 1000);
+        });
+    </script>
+
+    <!-- Modificación del segundo bloque de script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const countdownDate_2 = new Date('2024-01-19T23:59:59').getTime();
+
+            const countdownInterval_2 = setInterval(function () {
+                const currentDate_2 = new Date().getTime();
+                const timeDifference_2 = countdownDate_2 - currentDate_2;
+
+                if (timeDifference_2 >= 0) {
+                    const days_2 = Math.floor(timeDifference_2 / (1000 * 60 * 60 * 24));
+                    const hours_2 = Math.floor((timeDifference_2 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    const minutes_2 = Math.floor((timeDifference_2 % (1000 * 60 * 60)) / (1000 * 60));
+                    const seconds_2 = Math.floor((timeDifference_2 % (1000 * 60)) / 1000);
+
+                    document.getElementById('days_2').textContent = days_2;
+                    document.getElementById('hours_2').textContent = hours_2;
+                    document.getElementById('minutes_2').textContent = minutes_2;
+                    document.getElementById('seconds_2').textContent = seconds_2;
+                } else {
+                    clearInterval(countdownInterval_2);
+                    document.getElementById('days_2').textContent = '0';
+                    document.getElementById('hours_2').textContent = '0';
+                    document.getElementById('minutes_2').textContent = '0';
+                    document.getElementById('seconds_2').textContent = '0';
+                }
+            }, 1000);
+        });
+    </script>
+
+</body>
+
+</html>

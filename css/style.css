@@ -1,0 +1,178 @@
+body {
+    background-color: #000;
+}
+
+#nav {
+    background-color: black;
+}
+
+#a_link {
+    color: white;
+}
+
+#video {
+    width: 100%;
+    height: 10%;
+    margin-top: 2%;
+}
+
+#cont_v {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+}
+
+#cont_v2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: red;
+}
+
+.container {
+    text-align: center;
+}
+
+.center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.zoom-button {
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: #cf2e2e;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.zoom-button:hover {
+    transform: scale(1.1);
+}
+
+#s_tienda {
+    color: darkgray;
+    font-family: 'Times New Roman',
+        Times, serif;
+}
+#button{
+    color: white; 
+    inline-size: none; 
+    text-decoration: none;
+}
+
+#h_tienda {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.card-title{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-text{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#card{
+    max-width: 18rem;
+    background-color: white;
+    color: black;
+}
+
+/* compra */
+#title{
+    font-family: 'Times New Roman', Times, serif; 
+    color: white;
+}
+
+#card_c{
+    width: 100%; 
+    background-color: black;
+}
+
+#c_p{
+    color: #FFF000;
+}
+
+.contenedor-imagen {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    height: 80;
+}
+
+.imagen {
+    transition: transform 0.3s ease-in-out;
+    width: 40%;
+}
+
+#img_w {
+    width: 25%;
+    height: 15%;
+}
+
+#li_v{
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 0.5%;
+}
+
+.contenedor-imagen:hover .imagen {
+    transform: scale(1.2);
+     /* Ajusta el valor según tus necesidades */
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+#p_c{
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 16pt;
+    margin-top: 2%;
+}
+
+#p_c2{
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFF000;
+    font-size: 14pt;
+}
+
+#precio_1{
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+    text-decoration: line-through;
+}
+
+#precio_2{
+    font-family: 'Times New Roman', Times, serif;
+    color: #08FF00;
+}
+
+/* RELOJ */
+.countdown-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.countdown-item {
+    text-align: center;
+}
+
+.countdown-item::after {
+    content: ':';
+    margin: 0 0.5em;
+}
+
+#footer{
+    background-color: black;
+}
